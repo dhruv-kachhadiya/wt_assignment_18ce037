@@ -1,0 +1,121 @@
+body{
+	background:gray;
+}
+
+body:hover{
+	background:black;
+}
+
+.outer-container{
+	padding:20px;
+	background:lightgray;
+	margin:50px;
+	height:300px;
+}
+
+.outer-container:hover{
+	background:gray;
+}
+
+.inner-container{
+	padding:20px;
+	background:white;
+	margin:50px;
+	height:250px;
+}
+
+.inner-container{
+	background:lightgray;
+}
+
+.left{
+   float:left;
+   width:20%;
+   height:200px;
+   background:lightyellow;
+   box-shadow:9px 5px gray;
+   
+}
+
+.left:hover{
+	transform:translateY(5px);
+	transform:translateX(9px);
+	box-shadow:0px 0px gray;
+	 background:yellow;
+}
+
+.right{
+	float:right;
+	width:78%;
+	height:200px;
+	background:lightgreen;
+	box-shadow:9px 5px gray;
+}
+.right:hover{
+	transform:translateY(5px);
+	transform:translateX(9px);
+	box-shadow:0px 0px gray;
+	background:green;
+}
+
+.main{
+	padding:20px;
+	background:lightgray;
+	margin:50px;
+	height:1000px;
+}
+
+.main:hover{
+	background:gray;
+}
+	
+
+.sub{
+	padding:20px;
+	background:white;
+	margin:50px;
+	height:850px;
+}
+
+.sub:hover{
+	background:lightgray;
+}
+
+.sub-left{
+   float:left;
+   width:20%;
+   height:900px;
+   background:lightyellow;
+   color:red;
+   text-align:center;
+   box-shadow:9px 5px gray;
+}
+
+.sub-left:hover{
+	transform:translateY(5px);
+	transform:translateX(9px);
+    text-align:center;
+	box-shadow:0px 0px gray;
+	 background:red;
+	 color:white;
+}
+
+.sub-right{
+	float:right;
+	width:78%;
+	height:900px;
+	background:lightgreen;
+	box-shadow:9px 5px gray;
+}
+
+.sub-right:hover{
+	transform:translateY(5px);
+	transform:translateX(9px);
+	box-shadow:0px 0px gray;
+	 background:orange;
+}
+	
+td:hover{
+	background:white;
+}
+	

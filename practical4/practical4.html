@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>prctical4</title>
+
+<script>
+function validtouppercase() {
+  var temp = document.getElementById("name");
+  temp.value = temp.value.toUpperCase();
+}
+</script>
+</head>
+<body bgcolor="lightblue">
+<div style="margin:0px 500px;border:3px solid red;background:white;padding:10px" align="center">
+<form method="POST">
+Name:<input type="text" id="name" placeholder="enter your name" onblur="validtouppercase()" width="20px">
+<p>*onblur validation in Input Name*</p>
+gender:<br/>
+male <input type="radio" value="male" name="gender">female <input type="radio" value="female" name="gender">
+<br/></br>hobbies:<br/>
+reading <input type="checkbox" name="reading">watching <input type="checkbox" name="watching">playing <input type="checkbox" name="playing">
+<br/><br/>address:<br/>
+<textarea>enter your address</textarea>
+<br/><br/>
+city:<br/>
+<select>
+<option>surat</option>
+<option>anand</option>
+<option>baroda</option>
+</select>
+<br/><br/>
+<button type="button">Click Me!</button>
+</form>
+</div>
+</body>
+</html>

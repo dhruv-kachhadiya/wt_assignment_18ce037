@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register Form</title>
+    </head>
+    <body bgcolor="gray">
+        <h1 style="text-align:center;
+         color:white;
+        ">Webethon Registration</h1>
+        <div style="text-align:center;
+           background:lightgray;
+           border:3px solid white;
+           padding:20px 0px;
+        ">
+        <br>
+        <br>
+        <form action="pra5php.php" method="POST">
+        <h1 style="background:black;color:white">Name</h1>
+        <div style="border:2px solid red;
+                background:white;
+                margin:20px;
+                padding:10px 0px
+        ">
+            First Name:<input type="text" name="fname"><br>
+            Middle Name:<input type="text" name="mname"><br>
+            Last Name:<input type="text" name="lname"><br><br>
+        </div>
+        
+         <h1 style="background:black;color:white">participate's detail</h1>
+        <div style="border:2px solid red;
+                background:white;
+                margin:20px;
+                padding:10px 0px;
+                
+        ">
+            profession<br>
+            student:<input type="radio" name="prof" value="s">
+              faculty:<input type="radio" name="prof" value="f"><br>
+            department:<input type="text" name="dept_name"><br>
+            Gender<br>
+            Male:<input type="radio" name="gender" value="m">
+              Female:<input type="radio" name="gender" value="f"><br><br>
+            College:<input type="text" name="clg_name"><br>
+            Group Name:<input type="text" name="group_name"><br>
+            </div>
+            
+             <h1 style="background:black;color:white">contact detail</h1>
+            <div style="border:2px solid red;
+                background:white;
+                margin:20px;
+                padding:10px 0px
+        ">
+            mobile:<input type="number" maxlength="10" name="mobile"><br>
+            E-mail:<input type="email" name="E_mail"><br>
+            
+            city:<input type="text" name="City"><br>
+            state:<input type="text" name="State"><br><br>
+            
+            </div>
+            <input type="submit" value="submit" >
+            <input type="reset" value="reset">
+        </form>
+            
+        </div>
+    </body>
+</html>
